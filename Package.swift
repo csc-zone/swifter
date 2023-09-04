@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "Swifter",
 
-  platforms: [.iOS(.v16), .macOS(.v13), .tvOS(.v16)],
+  platforms: [.iOS(.v15), .macOS(.v10_15), .tvOS(.v15)],
 
   products: [
     .library(name: "Swifter", targets: ["Swifter"]),
